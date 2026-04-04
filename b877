@@ -1,0 +1,5 @@
+start,end=map(int,input().split())
+if end-start<0:
+    print((end+100)-start)
+else:
+    print(end-start)
