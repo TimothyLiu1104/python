@@ -11,10 +11,10 @@ else:
     if h>=10:
         print("{}:".format(h))
 if m>=10:
-    print("{}:".format(h))
+    print("{}:".format(m))
 else:
-    print("0{}".format(h),end="")
+    print("0{}".format(m),end="")
 if s>=10:
-    print("{}:".format(h))
+    print("{}:".format(s))
 else:
-    print("0{}".format(h),end="")
+    print("0{}".format(s),end="")
