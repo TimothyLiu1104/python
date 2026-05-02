@@ -8,3 +8,13 @@ if h>=10:
     print("{}:".format(h))
 else:
     print("0{}".format(h),end="")
+    if h>=10:
+        print("{}:".format(h))
+if m>=10:
+    print("{}:".format(h))
+else:
+    print("0{}".format(h),end="")
+if s>=10:
+    print("{}:".format(h))
+else:
+    print("0{}".format(h),end="")
