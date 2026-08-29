@@ -1,0 +1,16 @@
+import math
+x,y=map(int, input().split())#fisherman's point
+n=int(input())
+s=10000000
+x0=0#smallest x point
+y0=0#smallest y point
+for i in range(n):#smallest range
+    x1, y1=map(int,input().split())#the point of a school of fish
+    a=abs(x-x1)#absolute value
+    b=abs(y-y1)#absolute value
+    s1=math.sqrt(a*a+b*b)#sqare root
+    if s1<s:
+        s=s1
+        x0=x1
+        y0=y1
+print(x0,y0)
